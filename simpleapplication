@@ -1,0 +1,2 @@
+var temperature = request.parameters.temperature;
+publish("responseChannel", {"id":"temp", "result": temperature});
